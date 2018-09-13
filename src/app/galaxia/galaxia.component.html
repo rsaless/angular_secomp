@@ -1,0 +1,9 @@
+<header>
+    <a routerLink="/cadastrar">Cadastrar</a>
+</header>
+<main>
+    <div *ngFor="let planeta of listaPlanetas">
+        <solar-planeta [dados]="planeta"></solar-planeta>
+    </div>
+</main>
+
